@@ -86,5 +86,5 @@ if __name__ == '__main__':
     plt.xlabel("Episode")
     plt.ylabel("Steps to Goal")
     plt.title("Steps to reach the goal in each episode")
-    plt.savefig("env1_copy.jpg")
+    plt.savefig("env0_copy.jpg")
     plt.show()
