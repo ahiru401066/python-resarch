@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  python:
+    build:
+      context: ./
+    volumes:
+      - ./app:/app  # ローカルの./appをコンテナの/appと同期
+    stdin_open: true  # インタラクティブセッションを有効化
+    tty: true         # 疑似端末を有効化
+    command: bash
